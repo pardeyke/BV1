@@ -1,0 +1,13 @@
+**/.DS_Store
+
+**/main.aux
+**/main.dvi
+**/main.bcf
+**/main.fdb_latexmk
+**/main.fls
+**/main.log
+**/main.run.xml
+**/main.toc
+**/main.synctex.gz
+**/main.synctex(busy)
+**/main.synctex
