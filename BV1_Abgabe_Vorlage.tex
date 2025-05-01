@@ -1,0 +1,42 @@
+\documentclass[a4paper, fontsize=10pt, DIV=9, parskip=half, headings=small]{scrartcl}
+%
+\usepackage{ifluatex}
+\usepackage[ngerman]{babel}
+%
+\ifluatex
+ % LuaLaTeX
+ \usepackage{fontspec}
+ \usepackage{selnolig}
+\else
+ % PdfLaTeX
+ \usepackage[T1]{fontenc}
+\fi
+%
+\usepackage{csquotes}
+\usepackage{microtype}
+%
+\usepackage{graphicx}
+%
+\usepackage[headsepline, footsepline=false]{scrlayer-scrpage}
+\pagestyle{scrheadings}
+\clearpairofpagestyles
+%
+\ihead{BV1 Übungsblatt 1}
+\chead{Namen, \today}
+\ohead{\pagemark}
+%
+\usepackage{lastpage}
+%
+\renewcommand*\pagemark{{\usekomafont{pagenumber}{\pagename~\thepage\,/\,\pageref{LastPage}}}}
+%
+%------------------------------------------------------------------------------
+%
+\begin{document}
+%
+\section{Anpassung der Helligkeit}
+%
+\subsection{Implementierung}
+%
+\section{Anpassung des Kontrasts}
+%
+\end{document}
